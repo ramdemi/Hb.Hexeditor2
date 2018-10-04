@@ -1,0 +1,399 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="openToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>207, 22</value>
+  </data>
+  <data name="openToolStripMenuItem.Text" xml:space="preserve">
+    <value>&amp;Открыть</value>
+  </data>
+  <data name="toolStripSeparator.Size" type="System.Drawing.Size, System.Drawing">
+    <value>204, 6</value>
+  </data>
+  <data name="saveToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>207, 22</value>
+  </data>
+  <data name="saveToolStripMenuItem.Text" xml:space="preserve">
+    <value>&amp;Сохранить</value>
+  </data>
+  <data name="toolStripSeparator2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>204, 6</value>
+  </data>
+  <data name="recentFilesToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>207, 22</value>
+  </data>
+  <data name="recentFilesToolStripMenuItem.Text" xml:space="preserve">
+    <value>Недавние файлы</value>
+  </data>
+  <data name="toolStripSeparator1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>204, 6</value>
+  </data>
+  <data name="exitToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>207, 22</value>
+  </data>
+  <data name="exitToolStripMenuItem.Text" xml:space="preserve">
+    <value>&amp;Выход</value>
+  </data>
+  <data name="fileToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>46, 20</value>
+  </data>
+  <data name="fileToolStripMenuItem.Text" xml:space="preserve">
+    <value>&amp;Файл</value>
+  </data>
+  <data name="cutToolStripMenuItem.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAYNJREFUOE+tkU1L
+        AlEYhf01gZsWhSUUSVjUQlAoRiEImyItpWwRGdEXmIJpJkk7W2gINUYWSCgWlZBZZFHZoi9TGbUEo3XB
+        KccIXDhM4LO5772c83Dh5VWdq/gjPNtB/F4ZnlNZrFP+sreKvOYLsKy6y8LUbgiRs0tugiIOJ4XgYZQp
+        5N4KUOmmkXx54S7Y8h/B+vOLNJ3DceQScqUWmQzNXbAfvsCiw4VNXwD6+SX0KIe4l4sk01mMzy1hYHQW
+        RO8wDCbL/wRFNHoLCOUYCLUJx6dx7oLU2xfM3g8ojEksuB4gnYyhe+YWto0Eord5dlEi94k++zsUhieI
+        SRdkQ050T4YhnYqjXRPAsru0mYqYvQUQRhqtgz40ye3QLWxDOnH+VxISdnaBwpj+CzR2WZm5a+aOOanA
+        DWrFWnYBYUgwAX84AYHMyMwjtmu0kJvgN/ejhl/HLtCt3ENEUqiXmSGSlHYfiqYg7NRA0EbCuxdjFxyc
+        05Co1tDQoYZn54Q9XB14vG+qqt/jAaFM0AAAAABJRU5ErkJggg==
+</value>
+  </data>
+  <data name="cutToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>240, 22</value>
+  </data>
+  <data name="cutToolStripMenuItem.Text" xml:space="preserve">
+    <value>&amp;Вырезать</value>
+  </data>
+  <data name="copyToolStripMenuItem.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAeRJREFUOE+9kd9L
+        U2Ech/enlDKkuvYPiCgzCgwKL+oi6Add7UKvuooMgyRmLHA2F9YsZZue6SLSRcrMtTTbcq5sE08mttF0
+        7Ohybp7Z0847bWYxL4Ie+Ny85/08X77v0f0z7tFPaJFGwiL2wQBd7jfIC9/YulIerbwb24CfK01PiMwt
+        7C1xDYe3akXymz9o636BxxfmXEPr3hL7UFAUPVGQ3kNIVrhne440puAcTeHwpng4lMLUnxSJLOZ+F3a5
+        /UKgkdvIo6xmiSXSQrCb5p4lqi/7CM6ulCRWp1d87PRtYBxUuCF9pfGRTPfLZXG+kwZLAve4wqH6Ad7N
+        JIsSc2Ffbe+1jMpSKsN8bIWP8jLWZ3FRapHyIqHC1AvGOAfrn3LgTC9VdY+LAm3f9az6a7LBGuWq+QN3
+        HfNCsI3yXWV2cR3f9CoWaRL9qQclgZLOMvM5QTASwx/6wsjbOZo6i7/3ek8agznO+TtRTt+cErFIE+hP
+        tJcE1bUX/0ijaUoI1MJ6iZTKtLzGcEDB9SrJ/V4/lTWm0kP+jUvN40Kwc/J22p2vqThqLC84e81LJreJ
+        tT9Ah2sSS9+EmKyVzfYx9h+5XV5QY/AUXtshUlVnQ3+yg8rjbVQcay2UW9h3+FZ5wX9Cp/sJHQDnDCBJ
+        ADYAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="copyToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>240, 22</value>
+  </data>
+  <data name="copyToolStripMenuItem.Text" xml:space="preserve">
+    <value>&amp;Копировать</value>
+  </data>
+  <data name="pasteToolStripMenuItem.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAlJJREFUOE+1kmtI
+        k1EYx1/og30pulCf+lQQfYkigupDRmEWphlGYkbWIqZSorIsHampKbq8LU2bkZeh5q0SxUnREBJHd43N
+        6CKRGrmWtXfznsWv93112UgKgv7w58A55/97nvNwhP+iztYszDfTaa5IYnbrz2qqLsDjirwjOO01jNqv
+        MdCby1m1PwWZGq7otOgzE34HyqEJsZEpVwMTzlqMpRrGhqvIS4vhRVci508HkqjajL3zGMOm1cRG7PeG
+        yAA5POWqoyTrKN2WXMT3RQz1anlrOUFLWTCR4b7UJK/iaYFA9OF93oCGqrwZgHgDXXIEqZowtDGhnIsO
+        QaMOJk4VSFS4H4WxaxRAWICvN6C2XMekWM+kw8DYYDaO5zHYqpYrtlYuo7t0EY/0PkpYtt+2jd4AoyGL
+        cUcF4/0ZjL08xeizg4iti8mvNJFtaObC5XoSdUbi0suITNITEZ/jDSgvTmdkQM9or5qRx4G472/i4+0V
+        StijqelvOF0T9A85CY1KI+i4dg5Slp+C+CoD90N/3B3rcbWvZKBSUCrLKr/VqdhQZ8baZ1fCd7ts7AlR
+        zUCKc5L43HMGl3kdYttSHI0+9F0XlLa/Tn/ni1uq/MGJ9Y0dS887AsLj8JfCu/YewHf7DoTCiwk4HkRJ
+        4SV8alrIYPUCbCUCsdKb5bY9HVyVOigyttPSYVNW2Vs3rEW4lBqvfBDPlD1WSwP7tfI9y2sl3HinmzrT
+        kzmArPyUk9IPC0YVspugnVuUA3na8ps91ebzT8B8OiRNW77wN89e/1cJwg9O+O8tDxihqQAAAABJRU5E
+        rkJggg==
+</value>
+  </data>
+  <data name="pasteToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>240, 22</value>
+  </data>
+  <data name="pasteToolStripMenuItem.Text" xml:space="preserve">
+    <value>&amp;Вставить</value>
+  </data>
+  <data name="toolStripSeparator3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>237, 6</value>
+  </data>
+  <data name="copyHexStringToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>240, 22</value>
+  </data>
+  <data name="copyHexStringToolStripMenuItem.Text" xml:space="preserve">
+    <value>Копировать как хекс</value>
+  </data>
+  <data name="pasteHexToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>240, 22</value>
+  </data>
+  <data name="pasteHexToolStripMenuItem.Text" xml:space="preserve">
+    <value>Вставить как хекс</value>
+  </data>
+  <data name="toolStripSeparator4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>237, 6</value>
+  </data>
+  <data name="findToolStripMenuItem.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAAlwSFlzAAAK+AAA
+        CvgBZiY8/QAAAi5JREFUOE/Nk19IU1Ecx1dgf0AhpLCHoAKxDAr3kDJm2ENYLnKE2WQ9jBr44h6mtGnt
+        dtfD3OVuS7suDYrmmBWVljZYNlFEHBXGQAZFBbZcZcOFTipr2vp2zjWXyh6EXnr4nvP7fc/v9zmHHxwJ
+        gH/SssTWPhSu5b2ThZVNYyv8wXQ+1bJErnZ2znxNIFNqiGyRMWupR/el/tJ6qlRAbzkv9EJZcwMFSjv2
+        KKwx6gu3AkjnLyoVmNv68CMxj4fDb2EQhrHzUCM27DOuWfS9gTA4zyhyS62kfAWgodmXbW71Q8t2oaz6
+        OvYqHZCrr6Cwqu2N1nQHet4LVV0Hdis4ArZAe+FedgpAnp7BtPgxGf+O+GwSgRdxaMw+5B3hsGm/acR4
+        yUvqgC+z8xgKTeGk8T5yD3PUSgFMdXwPNfA09Al2z3Mc091GTjEL0txAAaHXEwi++gzePYJKYxe2yhmc
+        dfhYEWB3DUzrGntQXtMOaYWA/DIOeaUW5MgY+oKwnnuwcHaCnB21YdsBBpuL6lGkupwQAdZrA0gmf2E8
+        +g2Pn32AxRXEjoMU/ndQZ9hOfIzOIByJoXtwDDq+H/mKhWFKTMIjzM39JM3v4egIQnPR/58BSPNGCohM
+        TKPvyTs4746iwtCNXWRWIuD0OfdLdf1NlGhaIatqhkzVhO0lbJRAMv8A1hHFFNVXx8t1LhSfaoH0uA1Z
+        BbVTIoAuq5HT0yv+DbJnqPTu9URZNE9bvHpB8hto67drOcmFVQAAAABJRU5ErkJggg==
+</value>
+  </data>
+  <data name="findToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>240, 22</value>
+  </data>
+  <data name="findToolStripMenuItem.Text" xml:space="preserve">
+    <value>Найти...</value>
+  </data>
+  <data name="findNextToolStripMenuItem.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAAlwSFlzAAAK+AAA
+        CvgBZiY8/QAAAe5JREFUOE+dkttLmnEYx9+bDv/GimgwNghKa6wZtJKQMiM7uvEyMTcnNSnsuENm55ZZ
+        1pbCig0yXXQhixyRFOtAQQV2VVF3GRRBEdHYhd9+/qK3V9SCLj7P4cvzfH/PCy8DgKP56wxqe6egbZ0k
+        bWgfjqBmyLkCv9+PQOb3qUU9tA8HV3SNzLO9PxawuX2ADwN/UG92o9XmweHxGTJemiFRf0vjL17DFcQA
+        RqsH6s+/UN/nhlQ7iqoOF1qGZ8E22JGjGiJjtxgEvjdw7vTGOdjGcSSI2/FcMUg11+opkmVtZOwWgzrT
+        FGeQrrAg9ome5ot//+H8e4SkXAMZi2AQeF1jmEB1lwvl+p9Q1NqpQU6FDZ8sbqiaxiBRDeCZPPQKGlQf
+        HZjznnAXFOtGiQxGprHCteiDd2sfBtsK4kV6qvOhQUFeXd254Azy3gwTGYyY7YN9Zg8La7swjqwjKo6l
+        Oh8a5O+/05Mpj2sQ80hHZDAxiRpEJ6gRHa+ky1EPXlGdT1BzH8KKkZAZD1DS4SPljRY0cBdlnceZec0+
+        ZNftQFzp+fLi7e+4kCFBoYmkm/y03IYMpQNZ79yQVC9B2uCFSOmEoNCM5Pzu4OW7yNJOC9NKreSv7EFK
+        gWlLWGSRhh2MhOi1wyuUW5YFJf0PrzQwl4jyy/2mCmWxAAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="findNextToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>240, 22</value>
+  </data>
+  <data name="findNextToolStripMenuItem.Text" xml:space="preserve">
+    <value>Найти далее</value>
+  </data>
+  <data name="goToToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>240, 22</value>
+  </data>
+  <data name="goToToolStripMenuItem.Text" xml:space="preserve">
+    <value>Перейти к...</value>
+  </data>
+  <data name="editToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 20</value>
+  </data>
+  <data name="editToolStripMenuItem.Text" xml:space="preserve">
+    <value>&amp;Редактировать</value>
+  </data>
+  <data name="optionsToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>124, 22</value>
+  </data>
+  <data name="optionsToolStripMenuItem.Text" xml:space="preserve">
+    <value>&amp;Настройки</value>
+  </data>
+  <data name="toolsToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>49, 20</value>
+  </data>
+  <data name="toolsToolStripMenuItem.Text" xml:space="preserve">
+    <value>&amp;Дополнительно</value>
+  </data>
+  <data name="aboutToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>108, 22</value>
+  </data>
+  <data name="aboutToolStripMenuItem.Text" xml:space="preserve">
+    <value>О программе...</value>
+  </data>
+  <data name="helpToolStripMenuItem.Text" xml:space="preserve">
+    <value>&amp;Помощь</value>
+  </data>
+  <data name="openToolStripButton.Text" xml:space="preserve">
+    <value>&amp;Открыть</value>
+  </data>
+  <data name="saveToolStripButton.Text" xml:space="preserve">
+    <value>&amp;Сохранить</value>
+  </data>
+  <data name="cutToolStripButton.Text" xml:space="preserve">
+    <value>&amp;Вырезать</value>
+  </data>
+  <data name="copyToolStripMenuItem1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>161, 22</value>
+  </data>
+  <data name="copyToolStripMenuItem1.Text" xml:space="preserve">
+    <value>Копировать</value>
+  </data>
+  <data name="copyHexToolStripMenuItem1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>161, 22</value>
+  </data>
+  <data name="copyHexToolStripMenuItem1.Text" xml:space="preserve">
+    <value>Копировать как хекс</value>
+  </data>
+  <data name="copyToolStripSplitButton.Text" xml:space="preserve">
+    <value>Копировать</value>
+  </data>
+  <data name="pasteToolStripMenuItem1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>161, 22</value>
+  </data>
+  <data name="pasteToolStripMenuItem1.Text" xml:space="preserve">
+    <value>Вставить</value>
+  </data>
+  <data name="pasteHexToolStripMenuItem1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>161, 22</value>
+  </data>
+  <data name="pasteHexToolStripMenuItem1.Text" xml:space="preserve">
+    <value>Вставить как хекс</value>
+  </data>
+  <data name="pasteToolStripSplitButton.Text" xml:space="preserve">
+    <value>Вставить</value>
+  </data>
+  <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        AAABAAIAEBAQAAAAAAAoAQAAJgAAACAgEAAAAAAA6AIAAE4BAAAoAAAAEAAAACAAAAABAAQAAAAAAIAA
+        AAAAAAAAAAAAABAAAAAQAAAAAAAAAAAAgAAAgAAAAICAAIAAAACAAIAAgIAAAICAgADAwMAAAAD/AAD/
+        AAAA//8A/wAAAP8A/wD//wAA////AAAAAAAAAAAAD/////////AP////////8A/////////wD/AA//AA
+        //APD/8P/w//8A8P/w//Dw/wDw//D/8AD/APD/8P/w8P8A8P/w//D/DwD/AA//AAAPAP////////8A//
+        ///////wD/////////AP////////8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACgAAAAgAAAAQAAAAAEABAAAAAAAAAIAAAAA
+        AAAAAAAAEAAAABAAAAAAAAAAAACAAACAAAAAgIAAgAAAAIAAgACAgAAAgICAAMDAwAAAAP8AAP8AAAD/
+        /wD/AAAA/wD/AP//AAD///8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA////////
+        ////////////////////////////////////////////////////////////AAD///8AAAAA////////
+        8AAAD///AAAAAP///////wD//wD///8A//////////8A//8A////AP/////////wD///8A///wD/AP//
+        ////8A////AP//8A/wD///////AP///wD///AAAA///////wD///8A///wAAAP//////8A////AP//8A
+        /wD///////AP///wD///AP8A/wD////wD///8A///wD///8A/////wD//wD///8A////AP////8A//8A
+        //8AAAAAAAD/////8AAAD///AAAAAAAA//////8AAP//////////////////////////////////////
+        ////////////////////////////////////////AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD/////////////
+        //////////////////8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD//////////////////////////w==
+</value>
+  </data>
+  <data name="decimalToolStripMenuItem.Text" xml:space="preserve">
+    <value>Десятичный (10)</value>
+  </data>
+  <data name="editorOffsetFormatToolStripMenuItem.Text" xml:space="preserve">
+    <value>Формат смещения</value>
+  </data>
+  <data name="hexaDecimalToolStripMenuItem.Text" xml:space="preserve">
+    <value>Шестнадцатеричные (16)</value>
+  </data>
+  <data name="nsertToolStripMenuItem.Text" xml:space="preserve">
+    <value>Вставить</value>
+  </data>
+  <data name="octalToolStripMenuItem.Text" xml:space="preserve">
+    <value>Восьмиугольный (8)</value>
+  </data>
+  <data name="fillToolStripMenuItem.Text" xml:space="preserve">
+    <value>заполнить</value>
+  </data>
+  <data name="saveAsToolStripMenuItem.Text" xml:space="preserve">
+    <value>Сохранить как...</value>
+  </data>
+</root>

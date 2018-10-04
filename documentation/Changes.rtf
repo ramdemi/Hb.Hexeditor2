@@ -1,0 +1,185 @@
+{\rtf1\ansi\ansicpg1252\deff0\nouicompat\deflang1031\deflangfe1031{\fonttbl{\f0\fnil\fcharset0 Segoe UI Mono;}}
+{\*\generator Riched20 6.3.9600}\viewkind4\uc1 
+\pard\nowidctlpar\b\f0\fs16\lang1033 Version history\par
+\b\par
+2.0.1\par
+\b0 - New feature: HexBox2 added InsertBytes method it inserts bytes or texts pattern\par
+  desired count. Selected bytes are deleted if there are selected bytes.\par 
+- New feature: HexEditor2 uses HexBox2 InsertBytes method as menu insert\par
+- New feature: HexBox2 added FillBytes method it fills bytes or texts pattern\par
+  desired count. Bytes owerwrited\par
+- New feature: HexEditor2 uses HexBox2 FillBytes method as menu fill\par
+- New feature: HexBox2 added SaveAsChanges method it saves current file \par
+  as another file. And reopens this file\par
+- New feature: HexEditor2 uses SaveAsChanges method as Save as... menu\par
+- Improvement: HexBox2  added displayNames list to CodePageNames.(Long Form names)\par
+- Improvement: HexBox2 ConvertHexToBytes method accepts hexstrings with no spaces.\par
+\b\par
+2.0.0\par
+\b0 - Be.Hexeditor and HexBox renamed as Hb.HexEdtor2 and HexBox2.\par
+- New feature: HexBox2 ability highlight (for marking) bytes and regions added.\par
+  Patch from Nikolay Petrovski.\par
+- New feature: HexBox2 Ctrl+Shit+C snort cut added for copyHex command.\par
+  Ctrl+Shit+V snort cut added for pasteHex, Patch from Nikolay Petrovski.\par
+- New feature: HexBox2 Line info Format added for Hex, Decimal, Octal view format.\par
+- New feature: HexBox2 CodePageNames added to ByteCharConverter, for getting\par
+  Code Page names and idetifiers lists\par
+- New feature: HexBox2 with CodePageByteCharProvider single byte Code Pages can\par
+- can convertable now\par
+- New feature: HexBox2 Line info back color HexString text and back colors\par
+  properties added.\par  
+- New feature: HexEditor2 Turkish Language support added.\par
+- New feature: HexEditor2 can change most of HexBox properties saves,loads settings\par
+- New feature: HexEditor2 Options form has Apperance tab to change HexBox properties.\par
+- New feature: HexEditor2 menu items added, to change HexBox Line info format\par
+- Improvement: Solution converted to Visual Studio 20017.\par
+- Improvment: InfoForeColor renamed to InfoTextColor.\par
+- Bug fix: UpdateRectanglePositioning fix.\par
+\b\par
+1.6.0\par
+\b0 - New feature: High DPI (DPI Aware) As-Per-Monitor Windows 8.1 support\par
+- Improvment: InfoForeColor default value changed to Gray\par
+- Bug fix: RecentFileHandler fix\par
+\b\par
+1.5.0\par
+\b0 - Improvement: Moved to .NET Framework 4.0 for a better Win 8 support\par
+- Improvement: Moved to Visual Studio 2012\par
+- New feature: Bit editor added\par
+- New feature: Added encoding switch tool strip items\par
+- Improvement: Switched to Segoe UI font\par
+- Improvement: LineInfoColor renamed to InfoColor.\par
+- Improvement: BoldFont removed\par
+- Improvement: Changes in DesignMode property\par
+- Improvement: Find dialog, Find Next button renamed to Find\par
+- Bug fix: Setting a custom ContextMenuStrip is possible now\par
+- Bug fix: Static FormHexEditor renamed to ApplicationForm\par
+\b\par
+1.4.8\par
+\b0 - New feature: UseFixedBytes=false together with StringViewVisible=true \par
+- New feature: ColumnInfo added\par
+- New feature: Byte grouping shown with vertical separator line added\par
+- New feature: Case insensitive Find operations added\par
+- Improvement: Find dialog is shown non-modal now\par
+- Improvement: Moved find cancel to Find dialog\par
+- Improvement: Shadow selection is now working when focus is away\par
+- Improvement: Some changes in main dialog. Removed all borders\par
+- Improvement: ShowInTaskbar is set to false for Goto and Find dialog\b\par
+\par
+1.4.7\par
+\b0 - Improvement: Be.HexEditor is now licensed under the MIT License\par
+- Improvement: Changes of the byte char converter implementations\par
+- Improvement: DynamicByteProvider memory management improved\par
+- Bug fix: PageUp, PageDown is working correctly now\par
+- Bug fix: BuiltInContextMenu menu items event handlers are fixed now\b\par
+\par
+\par
+1.4.6\par
+\b0 - New feature: Italian language added\b\par
+\par
+1.4.5\par
+\b0 - New feature: Simplified Chinese language added\b\par
+\par
+1.4.4\par
+\b0 - Improvement: Support for .NET Client Profile added\par
+- Bug fix: DEL and Back key are respecting Readonly property\b\par
+\par
+1.4.3\par
+\b0 - New feature: LineInfoOffset property added\par
+- New feature: EBCDIC 500 support added\par
+- Bug fix: Ask for "Save Changes" on form close\par
+- Bug fix: Find next is working correctly now\par
+- Bug fix: Copy and Copy Hex menu item clicks are correct now\par
+- Improvement: Cyclomatic Complexity of key-down processing improved \b\par
+\par
+1.4.2\par
+\b0 - New feature: Russian language added\par
+- New feature: Select All menu item added\par
+- New feature: BuiltIn ContextMenu added for Copy, Cut, Paste\par
+- Bug fix: OnBytesPerLineChanged is invoked correctly now\par
+- Improvement: Dialog properties changed\par
+- Improvement: Selection is only available using left mouse button click\par
+- Improvement: Solution files updated to Visual Studio 2010\b\par
+\par
+1.4.1\par
+\b0 - New feature: Japanese language added\par
+- Bug fix: German translation of Copy, Copy Hex,Paste and Paste Hex added\b\par
+\par
+1.4.0\par
+\b0 - New feature: \fs17 Copy Hex and Paste Hex added\fs16\par
+- New feature: \fs17 Scroll with mouse selection\fs16\par
+- Bug fix: \fs17 Unhandled exception in DynamicFileByteProvider.DeleteBytes\fs16\par
+- Buf fix: \fs17 ByteCollection.Contains method signature fixed\fs16\par
+- Bug fix: \fs17 End key does not always scroll byte into view\fs16\par
+- Bug fix: \fs17 Selection Shift-Down after Shift-Up does not work correctly\fs16\par
+- Improvement: App.ico as main form icon \par
+- Improvement: InsertActive-mode changes caret width\par
+- Improvement: MaximumSize of main form changed\par
+- Improvement: \fs17 DynamicFileByteProvider constructor with stream parameter added\fs16\par
+\par
+\b 1.3.0\b0\par
+- New feature: Multilanguage support (English, German)\par
+- New feature: Recent files added\par
+- New feature: Options dialog added\par
+- New feature: Refresh during thumbtrack scrolling\par
+- New feature: File size shown in status bar\par
+- Bug fix: BackColor is not recognized\par
+- Bug fix: Somethimes crashes on files > 8 GB\par
+- Improvement: Can open file in read-only mode\par
+- Improvement: Ported to .NET 2.0\par
+- Improvement: Solution converted to Visual Studio 2008\par
+- Improvement: TextBox border rendering changed (without pinvoke)\par
+- Improvement: New ToolStrip controls and icons\par
+- Improvement: pinvoke signatures dropped\b\par
+\par
+\par
+1.2.0\par
+\b0 - Note: Thanks to Dave Cluderay\par
+- New feature: DynamicFileByteProvider with Insert/Delete support\par
+- New feature: Open Dynamic(Big files also) added\par
+\b\par
+1.1.3\b0\par
+- Note: Thanks to Eric Lawrence\par
+- New feature: LineInfoForeColor property added\par
+- Bug fix: CanCut, CanPaste take regard of ReadOnly\par
+- Bug fix: Ensure that we don't paint LineInfo for empty lines when array is empty.\par
+- Bug fix: Use first byte of line as address in LineInfo to mimic classic HexEditors.\b\par
+\par
+1.1.2\b0\par
+- Bug fix: Scrolling to the end is not working correctly.\b\par
+\par
+1.1.1\b0\par
+- Bug fix: Scrolling does not work as expected.\par
+- Bug fix: Exclude border region during text drawing.\par
+- New feature: InsertActive-property\par
+\b\par
+1.1\b0\par
+- Improvement: Removed gradient style feature.\par
+- New feature: ReadOnly property added\par
+- Improvement: Keys events are fireing correctly now\par
+- New feature: Activate/Deactivate insert with "Insert"-key\par
+- Improvement: Changes in Tab-key processing\par
+- New feature: Mouse wheel support\par
+- Improvement: Simplified scrolling methods\par
+\b\par
+\par
+1.0.2\b0\par
+- New feature: HexEditor can open files using the DynamicByteProvider\par
+- Improvement: IByteProvider is now extended with Changed event\par
+- Improvement: Themes.dll is replaced with Win32 API\'b4s\par
+- Bug fix: Another cursor hidden bug fix\par
+- Bug fix: Cannot move up with "Up"-key on special conditions\par
+\b\par
+1.0.1\par
+\b0 - Bug fix: Caret is hidden sometimes\par
+\b\par
+1.0.0\b0\par
+- Windows XP style added\par
+- Improved support for Copy and Paste\par
+- Bug fix: Find doesn\'b4t work corretly\ul\par
+\ulnone\par
+\b 0.9.1\b0\par
+- Checked against FxCop (2004-11-29)\par
+- New feature: HexFontEditor class added (2004-11-20)\par
+- Performance improvement: HexBox.Find method (2004-10-14)\fs20\par
+}
+ 
