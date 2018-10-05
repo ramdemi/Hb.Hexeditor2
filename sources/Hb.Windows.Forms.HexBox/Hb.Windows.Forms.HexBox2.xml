@@ -437,8 +437,9 @@
         </member>
         <member name="M:Hb.Windows.Forms.DynamicFileByteProvider.SaveAsChanges(System.String)">
             <summary>
-            See <see cref="M:Hb.Windows.Forms.IByteProvider.ApplyChanges" /> for more information.
+            Saves file as another file, it can save over 2 GB size. Changes nust below 2 GB size.
             </summary>
+            <param name="outfile"></param>
         </member>
         <member name="M:Hb.Windows.Forms.DynamicFileByteProvider.SupportsWriteByte">
             <summary>
